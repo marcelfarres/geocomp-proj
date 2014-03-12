@@ -8,9 +8,12 @@
 #include <CGAL/Polyhedron_3.h>
 #include <CGAL/IO/Polyhedron_iostream.h> 
 
-typedef  CGAL::Exact_predicates_exact_constructions_kernel Kernel;
+
+typedef CGAL::Exact_predicates_exact_constructions_kernel Kernel;
 typedef CGAL::Polyhedron_3<Kernel> Polyhedron;
 typedef Polyhedron::Vertex_iterator Vertex_iterator;
+typedef Polyhedron::Edge_iterator Ei;
+
 
 int main(int argc, char ** argv) {
     if (argc < 2) {
@@ -23,7 +26,9 @@ int main(int argc, char ** argv) {
     for (Vertex_iterator v = p.vertices_begin(); v != p.vertices_end(); v++) {
         std::cout << v->point() << std::endl;
     }
-
+    for (Ei ei = g.edges_begin(); ei != g.edges_end(); ei++) {
+      ;
+    }
     
     return 0;
 } 

@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ferran/geocomp-proj/main.cpp" "/home/ferran/geocomp-proj/CMakeFiles/main.dir/main.cpp.o"
+  "/Users/marcelfarres/GitHub/geocomp-proj/main.cpp" "/Users/marcelfarres/GitHub/geocomp-proj/CMakeFiles/main.dir/main.cpp.o"
   )
-SET(CMAKE_CXX_COMPILER_ID "GNU")
+SET(CMAKE_CXX_COMPILER_ID "Clang")
 
 # Preprocessor definitions for this target.
 SET(CMAKE_TARGET_DEFINITIONS
@@ -20,7 +20,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/usr/include/x86_64-linux-gnu"
+  "/opt/local/include"
   "."
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

@@ -26,19 +26,22 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /opt/local/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ferran/geocomp-proj
+CMAKE_SOURCE_DIR = /Users/marcelfarres/GitHub/geocomp-proj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ferran/geocomp-proj
+CMAKE_BINARY_DIR = /Users/marcelfarres/GitHub/geocomp-proj
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -51,17 +54,17 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.o: main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ferran/geocomp-proj/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/marcelfarres/GitHub/geocomp-proj/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /home/ferran/geocomp-proj/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /Users/marcelfarres/GitHub/geocomp-proj/main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ferran/geocomp-proj/main.cpp > CMakeFiles/main.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/marcelfarres/GitHub/geocomp-proj/main.cpp > CMakeFiles/main.dir/main.cpp.i
 
 CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ferran/geocomp-proj/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/marcelfarres/GitHub/geocomp-proj/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
 CMakeFiles/main.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/main.dir/main.cpp.o.requires
@@ -81,18 +84,16 @@ main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
 main: CMakeFiles/main.dir/build.make
-main: /usr/lib/x86_64-linux-gnu/libmpfr.so
-main: /usr/lib/x86_64-linux-gnu/libgmp.so
-main: /usr/lib/libCGAL_Core.so
-main: /usr/lib/libCGAL.so
-main: /usr/lib/libboost_thread.so
-main: /usr/lib/libboost_system.so
-main: /usr/lib/x86_64-linux-gnu/libpthread.so
-main: /usr/lib/libCGAL_Core.so
-main: /usr/lib/libCGAL.so
-main: /usr/lib/libboost_thread.so
-main: /usr/lib/libboost_system.so
-main: /usr/lib/x86_64-linux-gnu/libpthread.so
+main: /opt/local/lib/libmpfr.dylib
+main: /opt/local/lib/libgmp.dylib
+main: /opt/local/lib/libCGAL_Core.dylib
+main: /opt/local/lib/libCGAL.dylib
+main: /opt/local/lib/libboost_thread-mt.dylib
+main: /opt/local/lib/libboost_system-mt.dylib
+main: /opt/local/lib/libCGAL_Core.dylib
+main: /opt/local/lib/libCGAL.dylib
+main: /opt/local/lib/libboost_thread-mt.dylib
+main: /opt/local/lib/libboost_system-mt.dylib
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
@@ -109,6 +110,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/ferran/geocomp-proj && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ferran/geocomp-proj /home/ferran/geocomp-proj /home/ferran/geocomp-proj /home/ferran/geocomp-proj /home/ferran/geocomp-proj/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/marcelfarres/GitHub/geocomp-proj && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/marcelfarres/GitHub/geocomp-proj /Users/marcelfarres/GitHub/geocomp-proj /Users/marcelfarres/GitHub/geocomp-proj /Users/marcelfarres/GitHub/geocomp-proj /Users/marcelfarres/GitHub/geocomp-proj/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 
