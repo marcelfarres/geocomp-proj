@@ -18,22 +18,62 @@ typedef CGAL::Polyhedron_3<Kernel> Polyhedron;
 typedef Polyhedron::Vertex_iterator Vertex_iterator;
 typedef Polyhedron::Edge_iterator Ei;
 
+
+void display(void){
+  glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+  glEnable(GL_DEPTH_TEST);
+  //glEnable(GL_LIGHTING);
+  //glEnable(GL_LIGHT0);
+  //glShadeModel(GL_FLAT);
+  // setup camera
+  
+  //render here
+
+  //draw  a square centered at 0,0
+    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+  glBegin(GL_QUADS);
+  glVertex3f(-3,0,3);
+  glVertex3f(3,0,3);
+  glVertex3f(3, 0, -3);
+  glVertex3f(-3, 0, -3);
+  glEnd();
+  glFlush();
+  glutSwapBuffers();
+}
+
+void idle(){
+  display();
+}
+
 int main(int argc, char ** argv) {
-    if (argc < 2) {
-        std::cout << "This program requires an argument" << std::endl;
-    }
-    std::ifstream polystream(argv[1]);
-    Polyhedron p;
-    polystream >> p;
-    CGAL::set_ascii_mode(std::cout);
-    for (Vertex_iterator v = p.vertices_begin(); v != p.vertices_end(); v++) {
-        std::cout << v->point() << std::endl;
-    }
-    
-    cgal_render(p);
-    for (Ei ei = p.edges_begin(); ei != p.edges_end(); ei++) {
-      int test = getError (ei, p);
-    }
-    
-    return 0;
+  if (argc < 2) {
+      std::cout << "This program requires an argument" << std::endl;
+  }
+  glutInit(&argc, argv);
+  glutInitDisplayMode(GLUT_DEPTH | GLUT_RGB | GLUT_DOUBLE);
+  glutInitWindowPosition(200, 0);
+  glutInitWindowSize(640, 480);
+  glutCreateWindow("Practica 3. Mesh Simpification");
+  glutDisplayFunc(display);
+  //glutReshapeFunc(onReshape);
+  glutIdleFunc(idle);
+
+  std::ifstream polystream(argv[1]);
+  Polyhedron p;
+  polystream >> p;
+  CGAL::set_ascii_mode(std::cout);
+  for (Vertex_iterator v = p.vertices_begin(); v != p.vertices_end(); v++) {
+      std::cout << v->point() << std::endl;
+  }
+  
+  cgal_render(p);
+  for (Ei ei = p.edges_begin(); ei != p.edges_end(); ei++) {
+    int test = getError (ei, p);
+  }
+  
+  // load a model
+  
+  glutSwapBuffers();
+  glutMainLoop();
+  return 0;
 } 

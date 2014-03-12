@@ -30,7 +30,7 @@ if ( CGAL_FOUND )
   
   
     # Link the executable to CGAL and third-party libraries
-  target_link_libraries(geocomp-proj_demo ${CGAL_LIBRARIES} ${CGAL_3RD_PARTY_LIBRARIES} ${OPENGL_LIBRARIES})
+  target_link_libraries(geocomp-proj_demo ${CGAL_LIBRARIES} ${CGAL_3RD_PARTY_LIBRARIES} ${OPENGL_LIBRARIES} ${GLUT_LIBRARY})
   
     message(STATUS "NOTICE: This demo requires Qt3 and the CGAL Qt3 library, and will not be compiled.")
   
