@@ -30,7 +30,7 @@ int main(int argc, char ** argv) {
     }
     
     cgal_render(p);
-    for (Ei ei = g.edges_begin(); ei != g.edges_end(); ei++) {
+    for (Ei ei = p.edges_begin(); ei != p.edges_end(); ei++) {
       ;
     }
     
