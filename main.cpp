@@ -11,6 +11,7 @@
 
 // our libraries
 #include "cgal_render.h"
+#include "edgeError.h"
 
 typedef CGAL::Exact_predicates_exact_constructions_kernel Kernel;
 typedef CGAL::Polyhedron_3<Kernel> Polyhedron;
@@ -31,7 +32,7 @@ int main(int argc, char ** argv) {
     
     cgal_render(p);
     for (Ei ei = p.edges_begin(); ei != p.edges_end(); ei++) {
-      ;
+      int test = getError (ei, p);
     }
     
     return 0;
