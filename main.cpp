@@ -18,6 +18,7 @@ typedef CGAL::Polyhedron_3<Kernel> Polyhedron;
 typedef Polyhedron::Vertex_iterator Vertex_iterator;
 typedef Polyhedron::Edge_iterator Ei;
 
+Polyhedron p;
 
 void display(void){
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -30,13 +31,16 @@ void display(void){
   //render here
 
   //draw  a square centered at 0,0
-    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+  glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
   glBegin(GL_QUADS);
   glVertex3f(-3,0,3);
   glVertex3f(3,0,3);
   glVertex3f(3, 0, -3);
   glVertex3f(-3, 0, -3);
   glEnd();
+
+  cgal_render(p);
+
   glFlush();
   glutSwapBuffers();
 }
@@ -59,14 +63,8 @@ int main(int argc, char ** argv) {
   glutIdleFunc(idle);
 
   std::ifstream polystream(argv[1]);
-  Polyhedron p;
   polystream >> p;
   CGAL::set_ascii_mode(std::cout);
-  for (Vertex_iterator v = p.vertices_begin(); v != p.vertices_end(); v++) {
-      std::cout << v->point() << std::endl;
-  }
-  
-  cgal_render(p);
   for (Ei ei = p.edges_begin(); ei != p.edges_end(); ei++) {
     int test = getError (ei, p);
   }
