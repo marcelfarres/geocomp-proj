@@ -23,7 +23,8 @@ if ( CGAL_FOUND )
   
     # Make sure the compiler can find generated .moc files
   include_directories(BEFORE ${CMAKE_CURRENT_BINARY_DIR} ${OPENGL_INCLUDE_PATH} ${GLUT_INCLUDE_PATH})  
-  add_executable  (geocomp-proj_demo  cgal_render.cpp main.cpp)
+  add_executable  (geocomp-proj_demo  cgal_render.cpp main.cpp
+      edgeError.cpp)
   
   add_to_cached_list( CGAL_EXECUTABLE_TARGETS geocomp-proj_demo )
   
