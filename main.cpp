@@ -12,12 +12,36 @@
 // our libraries
 #include "cgal_render.h"
 #include "edgeError.h"
+#include "input.h"
+
 
 typedef CGAL::Exact_predicates_exact_constructions_kernel Kernel;
 typedef CGAL::Polyhedron_3<Kernel> Polyhedron;
 typedef Polyhedron::Vertex_iterator Vertex_iterator;
 typedef Polyhedron::Edge_iterator Ei;
 
+input inputinstance;
+int g_width, g_height;
+
+void drawAxis() {
+    // XYZ correspond to RGB. 
+    // Negative coordinates are the inverse color.
+    
+    glBegin(GL_LINES);
+        glColor3f(1,0,0);
+        glVertex3f(2,0,0);
+        glColor3f(0,1,1);
+        glVertex3f(-2,0,0);
+        glColor3f(0,1,0);
+        glVertex3f(0,2,0);
+        glColor3f(1,0,1);
+        glVertex3f(0,-2,0);
+        glColor3f(0,0,1);
+        glVertex3f(0,0,2);
+        glColor3f(1,1,0);
+        glVertex3f(0,0,-2);
+    glEnd();
+}
 
 void display(void){
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -26,19 +50,34 @@ void display(void){
   //glEnable(GL_LIGHT0);
   //glShadeModel(GL_FLAT);
   // setup camera
-  
+  inputinstance.updateProjection();
+  inputinstance.updateView();
+  inputinstance.updateModel();
+
   //render here
 
   //draw  a square centered at 0,0
-    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+  glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
   glBegin(GL_QUADS);
   glVertex3f(-3,0,3);
   glVertex3f(3,0,3);
   glVertex3f(3, 0, -3);
   glVertex3f(-3, 0, -3);
   glEnd();
+
+  // draw axis centered at 0,0,0
+  drawAxis();
+  
   glFlush();
   glutSwapBuffers();
+}
+
+void onReshape(int w, int h){
+  inputinstance.onReshape(w, h);
+}
+
+void onKeyboard(unsigned char k, int x, int y){
+  inputinstance.MyKeyboardFunc(k, x, y);
 }
 
 void idle(){
@@ -55,6 +94,8 @@ int main(int argc, char ** argv) {
   glutInitWindowSize(640, 480);
   glutCreateWindow("Practica 3. Mesh Simpification");
   glutDisplayFunc(display);
+  glutKeyboardFunc(onKeyboard);
+  glutReshapeFunc(onReshape);
   //glutReshapeFunc(onReshape);
   glutIdleFunc(idle);
 
