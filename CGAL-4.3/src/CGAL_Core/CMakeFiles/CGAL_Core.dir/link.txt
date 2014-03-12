@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -frounding-math -O3 -DNDEBUG   -shared -Wl,-soname,libCGAL_Core.so.10 -o ../../lib/libCGAL_Core.so.10.0.2 CMakeFiles/CGAL_Core.dir/all_files.cpp.o  -L/home/ferran/geocomp-proj/CGAL-4.3/lib -lmpfr -lgmp -lCGAL -lboost_thread -lboost_system -lpthread -Wl,-rpath,/home/ferran/geocomp-proj/CGAL-4.3/lib: 

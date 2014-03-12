@@ -1,0 +1,8 @@
+#include "/home/ferran/geocomp-proj/CGAL-4.3/src/CGAL_Core/BigFloat.cpp"
+#include "/home/ferran/geocomp-proj/CGAL-4.3/src/CGAL_Core/Real.cpp"
+#include "/home/ferran/geocomp-proj/CGAL-4.3/src/CGAL_Core/CoreDefs.cpp"
+#include "/home/ferran/geocomp-proj/CGAL-4.3/src/CGAL_Core/extLong.cpp"
+#include "/home/ferran/geocomp-proj/CGAL-4.3/src/CGAL_Core/CoreAux.cpp"
+#include "/home/ferran/geocomp-proj/CGAL-4.3/src/CGAL_Core/CoreIO.cpp"
+#include "/home/ferran/geocomp-proj/CGAL-4.3/src/CGAL_Core/Expr.cpp"
+#include "/home/ferran/geocomp-proj/CGAL-4.3/src/CGAL_Core/GmpIO.cpp"

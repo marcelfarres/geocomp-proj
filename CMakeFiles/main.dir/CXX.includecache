@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ferran/geocomp-proj/main.cpp
+iostream
+-
+fstream
+-
+GL/glut.h
+-
+CGAL/Exact_predicates_exact_constructions_kernel.h
+-
+CGAL/Polyhedron_3.h
+-
+CGAL/IO/Polyhedron_iostream.h
+-
+

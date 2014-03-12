@@ -1,0 +1,662 @@
+The system is: Linux - 3.11.0-15-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/2.8.11.2/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/2.8.11.2/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2706870039/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2706870039.dir/build.make CMakeFiles/cmTryCompileExec2706870039.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2706870039.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2706870039.dir/testCXXCompiler.cxx.o -c /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2706870039
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2706870039.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec2706870039.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2706870039 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3142020018/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3142020018.dir/build.make CMakeFiles/cmTryCompileExec3142020018.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3142020018.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3142020018.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3142020018
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3142020018.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec3142020018.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3142020018 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.8.1-10ubuntu9' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.1 (Ubuntu/Linaro 4.8.1-10ubuntu9) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3142020018' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3142020018 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3142020018.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3142020018/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3142020018.dir/build.make CMakeFiles/cmTryCompileExec3142020018.dir/build]
+  ignore line: [make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3142020018.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3142020018.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3142020018]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3142020018.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec3142020018.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3142020018 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.8.1-10ubuntu9' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (Ubuntu/Linaro 4.8.1-10ubuntu9) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3142020018' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3142020018 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3142020018.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3142020018] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec3142020018.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4032468239/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4032468239.dir/build.make CMakeFiles/cmTryCompileExec4032468239.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4032468239.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4032468239.dir/testCCompiler.c.o   -c /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4032468239
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4032468239.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec4032468239.dir/testCCompiler.c.o  -o cmTryCompileExec4032468239 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec152065445/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec152065445.dir/build.make CMakeFiles/cmTryCompileExec152065445.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec152065445.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec152065445.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec152065445
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec152065445.dir/link.txt --verbose=1
+/usr/bin/cc       -v CMakeFiles/cmTryCompileExec152065445.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec152065445 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.8.1-10ubuntu9' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.1 (Ubuntu/Linaro 4.8.1-10ubuntu9) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec152065445' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec152065445 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec152065445.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec152065445/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec152065445.dir/build.make CMakeFiles/cmTryCompileExec152065445.dir/build]
+  ignore line: [make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec152065445.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec152065445.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec152065445]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec152065445.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc       -v CMakeFiles/cmTryCompileExec152065445.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec152065445 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.8.1-10ubuntu9' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (Ubuntu/Linaro 4.8.1-10ubuntu9) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec152065445' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec152065445 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec152065445.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec152065445] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec152065445.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test CGAL_CFG_BOOST_VARIANT_SWAP_BUG succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3526429589/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3526429589.dir/build.make CMakeFiles/cmTryCompileExec3526429589.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3526429589.dir/CGAL_CFG_BOOST_VARIANT_SWAP_BUG.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec3526429589.dir/CGAL_CFG_BOOST_VARIANT_SWAP_BUG.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_BOOST_VARIANT_SWAP_BUG.cpp
+Linking CXX executable cmTryCompileExec3526429589
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3526429589.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec3526429589.dir/CGAL_CFG_BOOST_VARIANT_SWAP_BUG.cpp.o  -o cmTryCompileExec3526429589 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_DENORMALS_COMPILE_BUG succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3099319225/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3099319225.dir/build.make CMakeFiles/cmTryCompileExec3099319225.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3099319225.dir/CGAL_CFG_DENORMALS_COMPILE_BUG.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec3099319225.dir/CGAL_CFG_DENORMALS_COMPILE_BUG.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_DENORMALS_COMPILE_BUG.cpp
+Linking CXX executable cmTryCompileExec3099319225
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3099319225.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec3099319225.dir/CGAL_CFG_DENORMALS_COMPILE_BUG.cpp.o  -o cmTryCompileExec3099319225 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_FPU_ROUNDING_MODE_UNWINDING_VC_BUG succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1403100486/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1403100486.dir/build.make CMakeFiles/cmTryCompileExec1403100486.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1403100486.dir/CGAL_CFG_FPU_ROUNDING_MODE_UNWINDING_VC_BUG.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec1403100486.dir/CGAL_CFG_FPU_ROUNDING_MODE_UNWINDING_VC_BUG.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_FPU_ROUNDING_MODE_UNWINDING_VC_BUG.cpp
+Linking CXX executable cmTryCompileExec1403100486
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1403100486.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec1403100486.dir/CGAL_CFG_FPU_ROUNDING_MODE_UNWINDING_VC_BUG.cpp.o  -o cmTryCompileExec1403100486 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_IEEE_754_BUG succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1134213916/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1134213916.dir/build.make CMakeFiles/cmTryCompileExec1134213916.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1134213916.dir/CGAL_CFG_IEEE_754_BUG.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec1134213916.dir/CGAL_CFG_IEEE_754_BUG.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_IEEE_754_BUG.cpp
+Linking CXX executable cmTryCompileExec1134213916
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1134213916.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec1134213916.dir/CGAL_CFG_IEEE_754_BUG.cpp.o  -o cmTryCompileExec1134213916 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_ISTREAM_INT_BUG succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2942393074/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2942393074.dir/build.make CMakeFiles/cmTryCompileExec2942393074.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2942393074.dir/CGAL_CFG_ISTREAM_INT_BUG.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec2942393074.dir/CGAL_CFG_ISTREAM_INT_BUG.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_ISTREAM_INT_BUG.cpp
+Linking CXX executable cmTryCompileExec2942393074
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2942393074.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec2942393074.dir/CGAL_CFG_ISTREAM_INT_BUG.cpp.o  -o cmTryCompileExec2942393074 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+7812
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_MATCHING_BUG_5 succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3103801755/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3103801755.dir/build.make CMakeFiles/cmTryCompileExec3103801755.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3103801755.dir/CGAL_CFG_MATCHING_BUG_5.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec3103801755.dir/CGAL_CFG_MATCHING_BUG_5.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_MATCHING_BUG_5.cpp
+Linking CXX executable cmTryCompileExec3103801755
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3103801755.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec3103801755.dir/CGAL_CFG_MATCHING_BUG_5.cpp.o  -o cmTryCompileExec3103801755 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_MATCHING_BUG_6 succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2453618738/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2453618738.dir/build.make CMakeFiles/cmTryCompileExec2453618738.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2453618738.dir/CGAL_CFG_MATCHING_BUG_6.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec2453618738.dir/CGAL_CFG_MATCHING_BUG_6.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_MATCHING_BUG_6.cpp
+Linking CXX executable cmTryCompileExec2453618738
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2453618738.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec2453618738.dir/CGAL_CFG_MATCHING_BUG_6.cpp.o  -o cmTryCompileExec2453618738 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NESTED_CLASS_FRIEND_DECLARATION_BUG succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2131174303/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2131174303.dir/build.make CMakeFiles/cmTryCompileExec2131174303.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2131174303.dir/CGAL_CFG_NESTED_CLASS_FRIEND_DECLARATION_BUG.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec2131174303.dir/CGAL_CFG_NESTED_CLASS_FRIEND_DECLARATION_BUG.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_NESTED_CLASS_FRIEND_DECLARATION_BUG.cpp
+Linking CXX executable cmTryCompileExec2131174303
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2131174303.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec2131174303.dir/CGAL_CFG_NESTED_CLASS_FRIEND_DECLARATION_BUG.cpp.o  -o cmTryCompileExec2131174303 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+A's do_something
+C's do_something
+B's do_something
+C's do_something
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_LIMITS succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2743910795/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2743910795.dir/build.make CMakeFiles/cmTryCompileExec2743910795.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2743910795.dir/CGAL_CFG_NO_LIMITS.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec2743910795.dir/CGAL_CFG_NO_LIMITS.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_NO_LIMITS.cpp
+Linking CXX executable cmTryCompileExec2743910795
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2743910795.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec2743910795.dir/CGAL_CFG_NO_LIMITS.cpp.o  -o cmTryCompileExec2743910795 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_NEXTAFTER succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2451864206/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2451864206.dir/build.make CMakeFiles/cmTryCompileExec2451864206.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2451864206.dir/CGAL_CFG_NO_NEXTAFTER.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec2451864206.dir/CGAL_CFG_NO_NEXTAFTER.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_NO_NEXTAFTER.cpp
+Linking CXX executable cmTryCompileExec2451864206
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2451864206.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec2451864206.dir/CGAL_CFG_NO_NEXTAFTER.cpp.o  -o cmTryCompileExec2451864206 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_STL succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2623010619/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2623010619.dir/build.make CMakeFiles/cmTryCompileExec2623010619.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2623010619.dir/CGAL_CFG_NO_STL.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec2623010619.dir/CGAL_CFG_NO_STL.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_NO_STL.cpp
+Linking CXX executable cmTryCompileExec2623010619
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2623010619.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec2623010619.dir/CGAL_CFG_NO_STL.cpp.o  -o cmTryCompileExec2623010619 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NO_WARNING_CPP_DIRECTIVE_BUG succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec974131897/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec974131897.dir/build.make CMakeFiles/cmTryCompileExec974131897.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec974131897.dir/CGAL_CFG_NO_WARNING_CPP_DIRECTIVE_BUG.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec974131897.dir/CGAL_CFG_NO_WARNING_CPP_DIRECTIVE_BUG.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_NO_WARNING_CPP_DIRECTIVE_BUG.cpp
+/home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_NO_WARNING_CPP_DIRECTIVE_BUG.cpp:25:2: warning: #warning "Hello world" [-Wcpp]
+ #warning "Hello world"
+  ^
+Linking CXX executable cmTryCompileExec974131897
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec974131897.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec974131897.dir/CGAL_CFG_NO_WARNING_CPP_DIRECTIVE_BUG.cpp.o  -o cmTryCompileExec974131897 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_NUMERIC_LIMITS_BUG succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2125339525/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2125339525.dir/build.make CMakeFiles/cmTryCompileExec2125339525.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2125339525.dir/CGAL_CFG_NUMERIC_LIMITS_BUG.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec2125339525.dir/CGAL_CFG_NUMERIC_LIMITS_BUG.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_NUMERIC_LIMITS_BUG.cpp
+Linking CXX executable cmTryCompileExec2125339525
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2125339525.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec2125339525.dir/CGAL_CFG_NUMERIC_LIMITS_BUG.cpp.o  -o cmTryCompileExec2125339525 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_OUTOFLINE_MEMBER_DEFINITION_BUG succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3931791924/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3931791924.dir/build.make CMakeFiles/cmTryCompileExec3931791924.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3931791924.dir/CGAL_CFG_OUTOFLINE_MEMBER_DEFINITION_BUG.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec3931791924.dir/CGAL_CFG_OUTOFLINE_MEMBER_DEFINITION_BUG.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_OUTOFLINE_MEMBER_DEFINITION_BUG.cpp
+Linking CXX executable cmTryCompileExec3931791924
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3931791924.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec3931791924.dir/CGAL_CFG_OUTOFLINE_MEMBER_DEFINITION_BUG.cpp.o  -o cmTryCompileExec3931791924 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_TEMPLATE_IN_DEFAULT_PARAMETER_BUG succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec626347413/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec626347413.dir/build.make CMakeFiles/cmTryCompileExec626347413.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec626347413.dir/CGAL_CFG_TEMPLATE_IN_DEFAULT_PARAMETER_BUG.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec626347413.dir/CGAL_CFG_TEMPLATE_IN_DEFAULT_PARAMETER_BUG.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_TEMPLATE_IN_DEFAULT_PARAMETER_BUG.cpp
+Linking CXX executable cmTryCompileExec626347413
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec626347413.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec626347413.dir/CGAL_CFG_TEMPLATE_IN_DEFAULT_PARAMETER_BUG.cpp.o  -o cmTryCompileExec626347413 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_TYPENAME_BEFORE_DEFAULT_ARGUMENT_BUG succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1160785076/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1160785076.dir/build.make CMakeFiles/cmTryCompileExec1160785076.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1160785076.dir/CGAL_CFG_TYPENAME_BEFORE_DEFAULT_ARGUMENT_BUG.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec1160785076.dir/CGAL_CFG_TYPENAME_BEFORE_DEFAULT_ARGUMENT_BUG.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_TYPENAME_BEFORE_DEFAULT_ARGUMENT_BUG.cpp
+Linking CXX executable cmTryCompileExec1160785076
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1160785076.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec1160785076.dir/CGAL_CFG_TYPENAME_BEFORE_DEFAULT_ARGUMENT_BUG.cpp.o  -o cmTryCompileExec1160785076 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Performing C++ SOURCE FILE Test CGAL_CFG_USING_BASE_MEMBER_BUG_2 succeded with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2007020656/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2007020656.dir/build.make CMakeFiles/cmTryCompileExec2007020656.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2007020656.dir/CGAL_CFG_USING_BASE_MEMBER_BUG_2.cpp.o
+/usr/bin/c++    -frounding-math     -o CMakeFiles/cmTryCompileExec2007020656.dir/CGAL_CFG_USING_BASE_MEMBER_BUG_2.cpp.o -c /home/ferran/geocomp-proj/CGAL-4.3/config/testfiles/CGAL_CFG_USING_BASE_MEMBER_BUG_2.cpp
+Linking CXX executable cmTryCompileExec2007020656
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2007020656.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec2007020656.dir/CGAL_CFG_USING_BASE_MEMBER_BUG_2.cpp.o  -o cmTryCompileExec2007020656 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3916354808/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3916354808.dir/build.make CMakeFiles/cmTryCompileExec3916354808.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3916354808.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -frounding-math   -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3916354808.dir/CheckSymbolExists.cxx.o -c /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec3916354808
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3916354808.dir/link.txt --verbose=1
+/usr/bin/c++     -frounding-math      CMakeFiles/cmTryCompileExec3916354808.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec3916354808 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+File /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3375874647/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3375874647.dir/build.make CMakeFiles/cmTryCompileExec3375874647.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3375874647.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec3375874647.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3375874647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3375874647.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec3375874647.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3375874647 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2945382134/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2945382134.dir/build.make CMakeFiles/cmTryCompileExec2945382134.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2945382134.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec2945382134.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2945382134
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2945382134.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec2945382134.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2945382134 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec762846637/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec762846637.dir/build.make CMakeFiles/cmTryCompileExec762846637.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec762846637.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec762846637.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec762846637
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec762846637.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec762846637.dir/CheckFunctionExists.c.o  -o cmTryCompileExec762846637 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3432829052/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3432829052.dir/build.make CMakeFiles/cmTryCompileExec3432829052.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3432829052.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec3432829052.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3432829052
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3432829052.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec3432829052.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3432829052 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2107630356/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2107630356.dir/build.make CMakeFiles/cmTryCompileExec2107630356.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2107630356.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec2107630356.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2107630356
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2107630356.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec2107630356.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2107630356 -rdynamic 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4191945919/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4191945919.dir/build.make CMakeFiles/cmTryCompileExec4191945919.dir/build
+make[1]: Entering directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4191945919.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec4191945919.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4191945919
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4191945919.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec4191945919.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4191945919 -rdynamic -lICE 
+make[1]: Leaving directory `/home/ferran/geocomp-proj/CGAL-4.3/CMakeFiles/CMakeTmp'
+
+
