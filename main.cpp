@@ -9,19 +9,13 @@
 #include <CGAL/Polyhedron_3.h>
 #include <CGAL/IO/Polyhedron_iostream.h> 
 
-<<<<<<< HEAD
 // our libraries
 #include "cgal_render.h"
 
-typedef  CGAL::Exact_predicates_exact_constructions_kernel Kernel;
-=======
-
 typedef CGAL::Exact_predicates_exact_constructions_kernel Kernel;
->>>>>>> 7578543ea9e2505dd46a130a71ad87f575313578
 typedef CGAL::Polyhedron_3<Kernel> Polyhedron;
 typedef Polyhedron::Vertex_iterator Vertex_iterator;
 typedef Polyhedron::Edge_iterator Ei;
-
 
 int main(int argc, char ** argv) {
     if (argc < 2) {
@@ -34,14 +28,11 @@ int main(int argc, char ** argv) {
     for (Vertex_iterator v = p.vertices_begin(); v != p.vertices_end(); v++) {
         std::cout << v->point() << std::endl;
     }
-<<<<<<< HEAD
     
     cgal_render(p);
-=======
     for (Ei ei = g.edges_begin(); ei != g.edges_end(); ei++) {
       ;
     }
->>>>>>> 7578543ea9e2505dd46a130a71ad87f575313578
     
     return 0;
 } 
