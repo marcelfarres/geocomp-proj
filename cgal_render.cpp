@@ -9,4 +9,5 @@ void cgal_render(const Polyhedron & p) {
 }
 
 void draw_facet(const Facet_const_iterator & f) {
+    std::cout << "drawing facet " << f->is_quad() << std::endl;
 }
