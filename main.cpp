@@ -4,9 +4,13 @@
 
 // 3D libraries
 #include <GL/glut.h>
+#include <GL/gl.h>
 #include <CGAL/Exact_predicates_exact_constructions_kernel.h>
 #include <CGAL/Polyhedron_3.h>
 #include <CGAL/IO/Polyhedron_iostream.h> 
+
+// our libraries
+#include "cgal_render.h"
 
 typedef  CGAL::Exact_predicates_exact_constructions_kernel Kernel;
 typedef CGAL::Polyhedron_3<Kernel> Polyhedron;
@@ -23,7 +27,8 @@ int main(int argc, char ** argv) {
     for (Vertex_iterator v = p.vertices_begin(); v != p.vertices_end(); v++) {
         std::cout << v->point() << std::endl;
     }
-
+    
+    cgal_render(p);
     
     return 0;
 } 
