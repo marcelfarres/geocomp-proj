@@ -107,8 +107,9 @@ int main(int argc, char ** argv) {
   }
   
   cgal_render(p);
+  
   for (Ei ei = p.edges_begin(); ei != p.edges_end(); ei++) {
-    int test = getError (ei, p);
+    double test = getError (ei, p);
   }
   
   // load a model
