@@ -28,6 +28,7 @@ Polyhedron p;
 input inputinstance;
 int g_width, g_height;
 std::vector<std::pair<double, Halfedge_handle> > edges;
+std::map<Vertex_handle,Matrix> matrices;
 
 void drawAxis() {
     // XYZ correspond to RGB. 
@@ -110,6 +111,9 @@ int main(int argc, char ** argv) {
   std::ifstream polystream(argv[1]);
   polystream >> p;
   CGAL::set_ascii_mode(std::cout);
+  
+  for (Vertex
+    
   for (Ei ei = p.edges_begin(); ei != p.edges_end(); ei++) {
     double test = getError (ei, p);
     edges.push_back(std::make_pair(test, ei));

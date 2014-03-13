@@ -15,7 +15,7 @@
 #include <cstdlib>
 #include <vector>
 #include <utility>
-
+#include <map>
 // 3D libraries
 #include <GL/glut.h>
 #include <GL/gl.h>
@@ -25,6 +25,7 @@
 
 // our libraries
 #include "cgal_render.h"
+#include "matrix.h"
 
 typedef CGAL::Exact_predicates_exact_constructions_kernel Kernel;
 typedef CGAL::Polyhedron_3<Kernel> Polyhedron;
@@ -34,6 +35,7 @@ typedef Polyhedron::Halfedge_handle Halfedge_handle;
 
 extern std::vector<std::pair<double, Halfedge_handle> > edges;
 extern Polyhedron p;
+extern std::map<Vertex_handle,Matrix> matrices;
 
 double getError (Ei edges, Polyhedron p);
 
