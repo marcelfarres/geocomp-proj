@@ -114,13 +114,13 @@ int main(int argc, char ** argv) {
   
   for (Ei ei = p.edges_begin(); ei != p.edges_end(); ei++) {
 
-  if (ei->is_border()||ei->is_border_edge()) {
+  if (rand()/INT_MAX > 0.5 || ei->is_border()||ei->is_border_edge()) {
         continue;
     }
     double test = getError (ei);
     edges.push_back(std::make_pair(test, ei));
   }
-  std::sort(edges.begin(), edges.end(), std::greater<std::pair<double, Halfedge_handle> >());  
+  std::sort(edges.begin(), edges.end());  
   cgal_render(p);
   
   // load a model

@@ -40,6 +40,7 @@ extern std::vector<std::pair<double, Halfedge_handle> > edges;
 extern Polyhedron p;
 extern std::map<Vertex_handle,matrix4x4f> matrices;
 
+void init_q (Ei edges);
 double getError (Ei edges);
 
 void deleteEdge(void);

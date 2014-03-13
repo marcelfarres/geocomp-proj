@@ -404,16 +404,3 @@ matrix4x4f matrix4x4f::invertMatrix( const matrix4x4f *matIn )
 }
 
 
-float matrix4x4f::calculate_error(matrix4x4f Qv1, matrix4x4f Qv2, float vx3, float vy3, float vz3 ){
-	matrix4x4f q_bar;
-	/* computer quadric of virtual vertex vf */
-	q_bar = Qv1 + Qv2;
-	
-	float min_error = vertex_error(q_bar, vx3, vy3, vz3);
-
-	return min_error;
-}
-
-float matrix4x4f::vertex_error(matrix4x4f q, float x, float y, float z){
- 	return q.m[0]*x*x + 2*q.m[1]*x*y + 2*q.m[2]*x*z + 2*q.m[3]*x + q.m[5]*y*y + 2*q.m[6]*y*z + 2*q.m[7]*y + q.m[10]*z*z + 2*q.m[11]*z + q.m[15];
-}
