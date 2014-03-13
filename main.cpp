@@ -55,9 +55,9 @@ void display(void){
   //glEnable(GL_LIGHT0);
   //glShadeModel(GL_FLAT);
   // setup camera
-  inputinstance.updateProjection();
-  inputinstance.updateView();
-  inputinstance.updateModel();
+//  inputinstance.updateProjection();
+//  inputinstance.updateView();
+//  inputinstance.updateModel();
 
   //render here
 
@@ -80,11 +80,11 @@ void display(void){
 }
 
 void onReshape(int w, int h){
-  inputinstance.onReshape(w, h);
+//  inputinstance.onReshape(w, h);
 }
 
 void onKeyboard(unsigned char k, int x, int y){
-  inputinstance.MyKeyboardFunc(k, x, y);
+//  inputinstance.MyKeyboardFunc(k, x, y);
 }
 
 void idle(){
@@ -104,7 +104,6 @@ int main(int argc, char ** argv) {
   glutDisplayFunc(display);
   glutKeyboardFunc(onKeyboard);
   glutReshapeFunc(onReshape);
-  //glutReshapeFunc(onReshape);
   glutIdleFunc(idle);
 
   std::ifstream polystream(argv[1]);
@@ -113,8 +112,9 @@ int main(int argc, char ** argv) {
   for (Ei ei = p.edges_begin(); ei != p.edges_end(); ei++) {
     double test = getError (ei, p);
     edges.push_back(std::make_pair(test, ei));
-
   }
+  
+  cgal_render(p);
   
   // load a model
   
