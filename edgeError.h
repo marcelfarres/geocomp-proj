@@ -29,5 +29,5 @@ typedef Polyhedron::Vertex_iterator Vertex_iterator;
 typedef Polyhedron::Edge_iterator Ei;
 
 
-int getError (Ei edges, Polyhedron p);
+double getError (Ei edges, Polyhedron p);
 #endif 
