@@ -9,6 +9,7 @@
 #include "matrix4x4f.h" 
 #include <cmath>
 #include "vector3f.h"
+#include "edgeError.h"
 
 
 #include <iostream>
