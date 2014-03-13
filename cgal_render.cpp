@@ -9,5 +9,11 @@ void cgal_render(const Polyhedron & p) {
 }
 
 void draw_facet(const Facet_const_iterator & f) {
-    std::cout << "drawing facet " << f->is_quad() << std::endl;
+    Halfedge_const_handle h = f->halfedge();
+    Halfedge_const_handle initial = h;
+    do {
+        Point p = h->vertex()->point();
+        glVertex3d(to_double(p.x()), to_double(p.y()), to_double(p.z()));
+        h = h->next();
+    } while (h != initial);
 }
