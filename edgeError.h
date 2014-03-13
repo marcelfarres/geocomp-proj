@@ -25,13 +25,14 @@
 
 // our libraries
 #include "cgal_render.h"
-#include "matrix.h"
 
 typedef CGAL::Exact_predicates_exact_constructions_kernel Kernel;
 typedef CGAL::Polyhedron_3<Kernel> Polyhedron;
 typedef Polyhedron::Vertex_iterator Vertex_iterator;
+typedef Polyhedron::Vertex_handle Vertex_handle;
 typedef Polyhedron::Edge_iterator Ei;
 typedef Polyhedron::Halfedge_handle Halfedge_handle;
+typedef Kernel::Plane_3 Plane;
 
 extern std::vector<std::pair<double, Halfedge_handle> > edges;
 extern Polyhedron p;

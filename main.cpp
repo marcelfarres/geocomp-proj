@@ -112,8 +112,6 @@ int main(int argc, char ** argv) {
   polystream >> p;
   CGAL::set_ascii_mode(std::cout);
   
-  for (Vertex
-    
   for (Ei ei = p.edges_begin(); ei != p.edges_end(); ei++) {
     double test = getError (ei, p);
     edges.push_back(std::make_pair(test, ei));
