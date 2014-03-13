@@ -53,6 +53,9 @@ public:
 	matrix4x4f operator * (const matrix4x4f &other);
 
 	matrix4x4f operator * (const float scalar);
+
+	float matrix4x4f::calculate_error(matrix4x4f Qv1, matrix4x4f Qv2, float vx3, float vy3, float vz3 );
+	float matrix4x4f::vertex_error(matrix4x4f q, float x, float y, float z);
 };
 
 #endif // _MATRIX4X4F_H_

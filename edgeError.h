@@ -41,4 +41,5 @@ extern std::map<Vertex_handle,Matrix> matrices;
 double getError (Ei edges, Polyhedron p);
 
 void deleteEdge(void);
+
 #endif 
