@@ -31,6 +31,19 @@ public:
                 float m2, float m6, float m10, float m14,
                 float m3, float m7, float m11, float m15 );
 
+    matrix4x4f(float plane[])
+    {
+        float a = plane[0];
+        float b = plane[1];
+        float c = plane[2];
+        float d = plane[3];
+        m[0] = a*a;  m[1] = a*b;  m[2] = a*c;  m[3] = a*d;
+        m[4] = a*b;  m[5] = b*b;  m[6] = b*c;  m[7] = b*d;
+        m[8] = a*c;  m[9] = b*c; m[10] = c*c; m[11] = c*d;
+        m[12] = a*d; m[13] = b*d; m[14] = c*d; m[15] = d*d;
+    }
+
+
 	void identity(void);
 	void translate(const vector3f &trans);
 	void translate_x(const float &dist);
@@ -54,8 +67,8 @@ public:
 
 	matrix4x4f operator * (const float scalar);
 
-	float matrix4x4f::calculate_error(matrix4x4f Qv1, matrix4x4f Qv2, float vx3, float vy3, float vz3 );
-	float matrix4x4f::vertex_error(matrix4x4f q, float x, float y, float z);
+	float calculate_error(matrix4x4f Qv1, matrix4x4f Qv2, float vx3, float vy3, float vz3 );
+	float vertex_error(matrix4x4f q, float x, float y, float z);
 };
 
 #endif // _MATRIX4X4F_H_

@@ -16,7 +16,7 @@
 #include "cgal_render.h"
 #include "edgeError.h"
 #include "input.h"
-
+#include "matrix4x4f.h"
 
 typedef CGAL::Exact_predicates_exact_constructions_kernel Kernel;
 typedef CGAL::Polyhedron_3<Kernel> Polyhedron;
@@ -28,7 +28,7 @@ Polyhedron p;
 input inputinstance;
 int g_width, g_height;
 std::vector<std::pair<double, Halfedge_handle> > edges;
-std::map<Vertex_handle,Matrix> matrices;
+std::map<Vertex_handle,matrix4x4f> matrices;
 
 void drawAxis() {
     // XYZ correspond to RGB. 
@@ -113,7 +113,11 @@ int main(int argc, char ** argv) {
   CGAL::set_ascii_mode(std::cout);
   
   for (Ei ei = p.edges_begin(); ei != p.edges_end(); ei++) {
-    double test = getError (ei, p);
+
+  if (ei->is_border()||ei->is_border_edge()) {
+        continue;
+    }
+    double test = getError (ei);
     edges.push_back(std::make_pair(test, ei));
   }
   std::sort(edges.begin(), edges.end(), std::greater<std::pair<double, Halfedge_handle> >());  

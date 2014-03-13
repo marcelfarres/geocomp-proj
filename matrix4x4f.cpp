@@ -277,11 +277,6 @@ matrix4x4f matrix4x4f::operator * ( const float scalar )
 
 	return result;
 }
-double matrix4x4f::determinant (){
-	double det =  m[0]*m[4]*m[8] + m[2]*m[3]*m[7] + m[1]*m[5]*m[6]
-			- m[2]*m[4]*m[6] - m[0]*m[5]*m[7] - m[1]*m[3]*m[8];
-	return det;		
-}
 
 //-----------------------------------------------------------------------------
 // Name: invertMatrix()
@@ -411,17 +406,14 @@ matrix4x4f matrix4x4f::invertMatrix( const matrix4x4f *matIn )
 
 float matrix4x4f::calculate_error(matrix4x4f Qv1, matrix4x4f Qv2, float vx3, float vy3, float vz3 ){
 	matrix4x4f q_bar;
-	Matrix q_delta;
-	
 	/* computer quadric of virtual vertex vf */
 	q_bar = Qv1 + Qv2;
 	
-	min_error = vertex_error(q_bar, vx3, vy3, vz3);
+	float min_error = vertex_error(q_bar, vx3, vy3, vz3);
 
 	return min_error;
 }
 
 float matrix4x4f::vertex_error(matrix4x4f q, float x, float y, float z){
- 	return q[0]*x*x + 2*q[1]*x*y + 2*q[2]*x*z + 2*q[3]*x + q[5]*y*y
- 		+ 2*q[6]*y*z + 2*q[7]*y + q[10]*z*z + 2*q[11]*z + q[15];
+ 	return q.m[0]*x*x + 2*q.m[1]*x*y + 2*q.m[2]*x*z + 2*q.m[3]*x + q.m[5]*y*y + 2*q.m[6]*y*z + 2*q.m[7]*y + q.m[10]*z*z + 2*q.m[11]*z + q.m[15];
 }

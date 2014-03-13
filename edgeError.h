@@ -25,6 +25,7 @@
 
 // our libraries
 #include "cgal_render.h"
+#include "matrix4x4f.h"
 
 typedef CGAL::Exact_predicates_exact_constructions_kernel Kernel;
 typedef CGAL::Polyhedron_3<Kernel> Polyhedron;
@@ -33,12 +34,13 @@ typedef Polyhedron::Vertex_handle Vertex_handle;
 typedef Polyhedron::Edge_iterator Ei;
 typedef Polyhedron::Halfedge_handle Halfedge_handle;
 typedef Kernel::Plane_3 Plane;
+typedef Polyhedron::Halfedge_around_facet_circulator Facet_circulator;
 
 extern std::vector<std::pair<double, Halfedge_handle> > edges;
 extern Polyhedron p;
-extern std::map<Vertex_handle,Matrix> matrices;
+extern std::map<Vertex_handle,matrix4x4f> matrices;
 
-double getError (Ei edges, Polyhedron p);
+double getError (Ei edges);
 
 void deleteEdge(void);
 
