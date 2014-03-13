@@ -12,6 +12,9 @@
 #include <iostream>
 #include <fstream>
 #include "edgeError.h"
+#include <cstdlib>
+#include <vector>
+#include <utility>
 
 // 3D libraries
 #include <GL/glut.h>
@@ -27,7 +30,11 @@ typedef CGAL::Exact_predicates_exact_constructions_kernel Kernel;
 typedef CGAL::Polyhedron_3<Kernel> Polyhedron;
 typedef Polyhedron::Vertex_iterator Vertex_iterator;
 typedef Polyhedron::Edge_iterator Ei;
+typedef Polyhedron::Halfedge_const_handle Halfedge_const_handle;
 
+extern std::vector<std::pair<double, Halfedge_const_handle> > edegs;
 
-int getError (Ei edges, Polyhedron p);
+double getError (Ei edges, Polyhedron p);
+
+void deleteEdge(void);
 #endif 

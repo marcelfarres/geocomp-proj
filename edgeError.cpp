@@ -1,5 +1,9 @@
 #include "edgeError.h"
 
-int getError (Ei edges, Polyhedron p){
-	return 0;
+double getError (Ei edges, Polyhedron p){
+	return rand()*10;
+}
+
+void deleteEdge(void) {
+    std::cout << "edge deleted!" << std::endl;
 }
