@@ -59,6 +59,7 @@ void input::MyKeyboardFunc(unsigned char Key, int x, int y){
 		case 'y': RotObj(0, 0, 1,  1);		break; // Rotate Z + OBJ
 		case 'h': RotObj(0, 0, 1, -1);		break; // Rotate Z + OBJ  
 		case 'Z': case 'z': reset();        break; // Reset to defaults
+		case 'c': deleteEdge();
 	};
 }
 

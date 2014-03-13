@@ -106,10 +106,10 @@ int main(int argc, char ** argv) {
       std::cout << v->point() << std::endl;
   }
   
-//  cgal_render(p);
-//  for (Ei ei = p.edges_begin(); ei != p.edges_end(); ei++) {
-//    int test = getError (ei, p);
-//  }
+  cgal_render(p);
+  for (Ei ei = p.edges_begin(); ei != p.edges_end(); ei++) {
+    int test = getError (ei, p);
+  }
   
   // load a model
   
