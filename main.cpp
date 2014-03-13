@@ -3,6 +3,7 @@
 #include <fstream>
 #include <vector>
 #include <utility>
+#include <algorithm>
 
 // 3D libraries
 #include <GL/glut.h>
@@ -21,12 +22,12 @@ typedef CGAL::Exact_predicates_exact_constructions_kernel Kernel;
 typedef CGAL::Polyhedron_3<Kernel> Polyhedron;
 typedef Polyhedron::Vertex_iterator Vertex_iterator;
 typedef Polyhedron::Edge_iterator Ei;
-typedef Polyhedron::Halfedge_const_handle Halfedge_const_handle;
+typedef Polyhedron::Halfedge_handle Halfedge_handle;
 
 Polyhedron p;
 input inputinstance;
 int g_width, g_height;
-std::vector<std::pair<double, Halfedge_const_handle> > edges;
+std::vector<std::pair<double, Halfedge_handle> > edges;
 
 void drawAxis() {
     // XYZ correspond to RGB. 
@@ -113,7 +114,7 @@ int main(int argc, char ** argv) {
     double test = getError (ei, p);
     edges.push_back(std::make_pair(test, ei));
   }
-  
+  std::sort(edges.begin(), edges.end(), std::greater<std::pair<double, Halfedge_handle> >());  
   cgal_render(p);
   
   // load a model

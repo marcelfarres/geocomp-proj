@@ -5,5 +5,8 @@ double getError (Ei edges, Polyhedron p){
 }
 
 void deleteEdge(void) {
-    std::cout << "edge deleted!" << std::endl;
+    std::pair<double, Halfedge_handle> edge = edges.back();
+    edges.pop_back();
+    std::cout << "deleting edge with error " << edge.first << std::endl;
+    p.join_vertex(edge.second);
 }

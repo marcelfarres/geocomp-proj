@@ -30,9 +30,10 @@ typedef CGAL::Exact_predicates_exact_constructions_kernel Kernel;
 typedef CGAL::Polyhedron_3<Kernel> Polyhedron;
 typedef Polyhedron::Vertex_iterator Vertex_iterator;
 typedef Polyhedron::Edge_iterator Ei;
-typedef Polyhedron::Halfedge_const_handle Halfedge_const_handle;
+typedef Polyhedron::Halfedge_handle Halfedge_handle;
 
-extern std::vector<std::pair<double, Halfedge_const_handle> > edegs;
+extern std::vector<std::pair<double, Halfedge_handle> > edges;
+extern Polyhedron p;
 
 double getError (Ei edges, Polyhedron p);
 
